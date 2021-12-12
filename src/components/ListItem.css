@@ -1,0 +1,27 @@
+.product--item {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product--item:hover {
+    background-color: rgb(196, 194, 192);
+}
+
+.product--item img {
+    height: 60%;
+    width: auto;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.product--description {
+    font-size: 18px;
+    text-align: center;
+}
